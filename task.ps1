@@ -123,3 +123,5 @@ New-AzDataCollectionRuleAssociation `
     -AssociationName "vm-guest-metrics-association" `
     -ResourceUri $vm.Id `
     -DataCollectionRuleId $dcr.Id
+
+    
